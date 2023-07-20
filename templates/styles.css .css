@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Center the text horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh; /* This is optional. It centers the text vertically too. */
+    /* Apply the red color to the text */
+    color: red;
+    
+}
+
+/* CSS styles for the prediction result */
+#predictionResult {
+    font-size: 30px;
+    animation: rainbow 5s infinite;
+}
+
+/* Rainbow color animation */
+@keyframes rainbow {
+    66% { color: blue; }
+}
